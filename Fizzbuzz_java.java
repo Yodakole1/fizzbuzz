@@ -10,7 +10,7 @@ class Fizzbuzz_java{
     
     public static void metod(int num,ArrayList<String> resenje){
         for(int i =1; i<num;i++){
-            if(i%5==0 && i%3==0){
+            if(i%15==0){
                 resenje.add("FizzBuzz");
             }   else if(i%5==0){
                 resenje.add("Buzz");
