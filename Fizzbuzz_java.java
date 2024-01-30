@@ -9,7 +9,7 @@ class Fizzbuzz_java{
     static Scanner idk = new Scanner(System.in);
     
     public static void metod(int num,ArrayList<String> resenje){
-        for(int i =1; i<num;i++){
+        for(int i = 1; i<num;i++){
             if(i%15==0){
                 resenje.add("FizzBuzz");
             }   else if(i%5==0){
